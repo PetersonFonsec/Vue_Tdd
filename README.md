@@ -1,5 +1,13 @@
 # vue-tdd-medium
 
+My first project with TDD in components Vue
+
+this project is a copy of another project of a very good medium post made by Daniel Kuroski follows the link 
+
+[Post by Daniel Kuroski](https://medium.com/magnetis-backstage/fazendo-uma-aplica%C3%A7%C3%A3o-em-vue-js-com-tdd-um-guia-extensivo-para-quem-quer-aprender-parte-1-d9952be6a29)
+
+Thanks Daniel :+1: :pray:
+
 ## Project setup
 ```
 npm install
@@ -29,6 +37,3 @@ npm run lint
 ```
 npm run test:unit
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
