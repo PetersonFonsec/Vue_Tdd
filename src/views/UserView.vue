@@ -1,8 +1,7 @@
 <template>
     <div>
         <VUserProfile :user="user" />
-        <VUserSearchForm/>
-        UserView
+        <VUserSearchForm @submitted="searchUser"/>
     </div>
 </template>
 
@@ -17,6 +16,11 @@ export default {
         VUserProfile,
         VUserSearchForm
     },    
+    methods: {
+        searchUser(username) {
+        this.$store.dispatch('SEARCH_USER', { username })
+        }
+    },
     computed: {
         ...mapState({
             user: 'user',
