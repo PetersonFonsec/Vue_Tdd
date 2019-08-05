@@ -4,6 +4,5 @@ exports[`UserView renders the component 1`] = `
 <div>
   <vuserprofile-stub user="[object Object]"></vuserprofile-stub>
   <vusersearchform-stub></vusersearchform-stub>
-  UserView
 </div>
 `;
