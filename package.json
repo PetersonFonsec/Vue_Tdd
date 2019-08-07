@@ -7,6 +7,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
     "test:unit:watch": "vue-cli-service test:unit --watchAll"
   },
   "dependencies": {
@@ -32,6 +33,7 @@
     "eslint-plugin-vue": "^5.0.0",
     "flush-promises": "^1.0.2",
     "nock": "^10.0.6",
+    "push-dir": "^0.4.1",
     "vue-template-compiler": "^2.6.10"
   }
 }
